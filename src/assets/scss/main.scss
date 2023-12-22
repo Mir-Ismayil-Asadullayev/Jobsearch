@@ -1,0 +1,40 @@
+@import './general/base';
+
+:root {
+  font-family: 'Brutal Type Medium', monospace;
+  font-size: 62.5%;
+  height: 100%;
+  position: relative;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+  background: #d4d4d4;
+  width: 0.3rem;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #0055ff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #535353;
+}

@@ -1,11 +1,14 @@
-import './assets/scss/_base/App.scss';
+import './assets/scss/App.scss';
+import MainItemsBar from './components/layouts/MainItemsBar.jsx';
+import NavigationsBar from './components/layouts/NavigationsBar.jsx';
 
 function App() {
 
   return (
-    <>
-      <h1 >Helllo</h1>
-    </>
+    <div style={{ display: 'flex' }}>
+      <NavigationsBar />
+      <MainItemsBar />
+    </div>
   )
 }
 
