@@ -1,4 +1,5 @@
 .navigations-container {
+    width: 28rem;
     max-width: 28rem;
     min-width: 9rem;
     height: 100vh;
@@ -22,6 +23,7 @@
 
             &__headings {
                 position: relative;
+                cursor: pointer;
 
                 &>div:last-child {
                     position: absolute;
@@ -53,7 +55,7 @@
                 font-size: 1.4rem;
                 padding: 0.9rem 1.5rem;
                 border-radius: 5px;
-                font-family: 'Archivo', sans-serif;
+                font-family: "Archivo", sans-serif;
                 margin: 0.5rem auto;
                 justify-content: unset;
                 font-weight: 500;
@@ -140,7 +142,7 @@
             flex-basis: 20%;
             font-weight: 500;
             margin-top: 2rem;
-            font-family: 'Archivo', sans-serif;
+            font-family: "Archivo", sans-serif;
             display: flex;
             flex-flow: column;
             justify-content: end;
@@ -202,13 +204,14 @@
     .navigation-wrapper--burger {
 
         .header__headings>div:first-child {
-            display: none;
+            width: auto !important;
         }
 
         .header__headings>div:last-child {
             top: 48rem;
             left: 50%;
             transform: translateX(-50%);
+            width: max-content;
         }
 
         .navigation-links {
@@ -221,10 +224,7 @@
         }
 
         .subscribe-navigation__title {
-            text-align: center;
-            margin: 0 0 2rem 0.1rem !important;
-            font-size: 1.3rem !important;
-            width: 100% !important;
+            display: none !important;
         }
 
         .subscribe-navigation>ul>.navigation-links:first-child {
@@ -272,6 +272,7 @@
         position: absolute;
         right: 0.3rem;
         bottom: 0.1rem;
+        opacity: 0.5;
     }
 
     &::-webkit-resizer {

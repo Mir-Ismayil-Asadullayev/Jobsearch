@@ -1,0 +1,29 @@
+.contacts-container {
+    padding: 4rem 3.2rem;
+    height: 100%;
+    overflow-y: auto;
+    font-family: "Archivo", monospace;
+
+
+    & h1 {
+        margin-bottom: 2rem;
+    }
+
+    & h2 {
+        min-width: 16rem;
+        margin-right: 2.5rem;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+
+    .contacts-text {
+        display: flex;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        color: rgba(0, 0, 0, .7);
+        padding: 3.2rem 0;
+        margin: 2.4rem 0;
+        border-bottom: 1px solid #eaeaea;
+        border-top: 1px solid #eaeaea;
+    }
+}

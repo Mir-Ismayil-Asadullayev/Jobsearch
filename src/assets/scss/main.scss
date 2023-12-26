@@ -1,7 +1,7 @@
-@import './general/base';
+@import "./general/base";
 
 :root {
-  font-family: 'Brutal Type Medium', monospace;
+  font-family: "Brutal Type Medium", monospace;
   font-size: 62.5%;
   height: 100%;
   position: relative;
@@ -26,8 +26,17 @@ a {
   text-decoration: none;
 }
 
+button {
+  all: unset;
+}
+
+input {
+  all: unset;
+  border: 1px solid gray;
+}
+
 *::-webkit-scrollbar {
-  background: #d4d4d4;
+  background: #f0f0f0;
   width: 0.3rem;
 }
 
@@ -36,5 +45,5 @@ a {
 }
 
 *::-webkit-scrollbar-thumb {
-  background: #535353;
+  background: #ababab;
 }

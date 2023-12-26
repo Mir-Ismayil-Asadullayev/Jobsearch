@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import 'normalize.css';
-import App from './App';
-import './assets/scss/main.scss';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "normalize.css";
+import App from "./App";
+import "./assets/scss/main.scss";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,

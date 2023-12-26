@@ -1,6 +1,6 @@
-const IconArray = [
+const IconsArray = [
     {
-        IconName: 'logo',
+        IconName: "logo",
         Icon: <svg viewBox="0 0 456 160" style={{ width: "100%", height: "100%" }}>
             <g>
                 <path
@@ -9,47 +9,47 @@ const IconArray = [
                     transform="matrix(.28 0 0 .28 228 80)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M1456.629-145.632V-229.6h-42.312V0h42.312v-88.56c0-13.335 3.224-23.452 9.676-30.34 6.447-6.888 15.252-10.332 26.404-10.332 10.055 0 17.984 2.952 23.78 8.856 5.791 5.904 8.692 14.217 8.692 24.928V0h42.312v-100.696c0-20.992-5.904-37.607-17.712-49.856-11.372-12.023-26.132-18.04-44.28-18.04-22.524 0-38.817 7.657-48.872 22.96z"
                     transform="matrix(.28 0 0 .28 8.06 97.5)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M1369.546-6.888c13.228-7.652 23.452-18.04 30.668-31.16l-36.736-20.992c-3.28 6.78-8.256 12.085-14.924 15.908-6.673 3.828-14.268 5.74-22.796 5.74-12.684 0-23.18-4.151-31.488-12.464-8.313-8.743-12.464-19.46-12.464-32.144 0-13.12 4.151-23.888 12.464-32.308 8.308-8.415 18.804-12.628 31.488-12.628 8.308 0 15.795 1.968 22.468 5.904 6.668 3.936 11.644 9.297 14.924 16.072l36.408-21.32c-6.78-12.9-16.728-23.175-29.848-30.832-13.12-7.652-27.665-11.48-43.624-11.48-24.713 0-45.377 8.313-61.992 24.928-16.4 16.62-24.6 37.177-24.6 61.664 0 24.492 8.2 45.049 24.6 61.664 16.615 16.62 37.279 24.928 61.992 24.928 15.744 0 30.227-3.828 43.46-11.48z"
                     transform="matrix(.28 0 0 .28 228 80) translate(-790.5 63.5)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M1145.689-164V0h42.312v-78.392c0-15.744 5.028-27.004 15.088-33.784 10.276-6.996 21.863-9.62 34.768-7.872v-47.232c-11.593 0-21.868 2.68-30.832 8.036-8.969 5.361-15.308 13.176-19.024 23.452V-164h-42.312z"
                     transform="matrix(.28 0 0 .28 5.4 97.78)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M982.348-82c0-13.556 4.264-24.6 12.792-33.128 8.528-8.743 19.352-13.12 32.472-13.12 13.12 0 23.943 4.377 32.471 13.12 8.743 8.528 13.12 19.572 13.12 33.128 0 13.561-4.377 24.713-13.12 33.456-8.528 8.528-19.35 12.792-32.47 12.792-13.121 0-23.945-4.264-32.473-12.792-8.528-8.743-12.792-19.895-12.792-33.456zm37.392-86.592c-21.868 0-40.672 8.42-56.416 25.256-15.529 16.841-23.288 37.284-23.288 61.336 0 24.272 7.759 44.828 23.288 61.664 15.744 16.62 34.548 24.928 56.416 24.928 22.96 0 40.779-7.98 53.463-23.944V0h42.313v-164h-42.313v19.352c-12.684-15.959-30.503-23.944-53.463-23.944z"
                     transform="matrix(.28 0 0 .28 3.86 97.78)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M817.365-121.852c7.431-5.791 16.836-8.692 28.208-8.692 10.055 0 18.747 2.844 26.076 8.528 7.324 5.689 12.187 13.889 14.596 24.6h-83.64c2.404-10.496 7.324-18.64 14.76-24.436zM928.557-82c0-24.487-7.872-45.044-23.616-61.664-15.308-16.615-35.096-24.928-59.368-24.928-25.584 0-46.361 8.313-62.32 24.928-16.185 16.62-24.272 37.177-24.272 61.664 0 24.928 8.2 45.592 24.6 61.992 16.4 16.4 38.156 24.6 65.272 24.6 31.488 0 55.319-11.695 71.504-35.096l-34.112-19.68c-8.313 10.937-20.556 16.4-36.736 16.4-25.369 0-40.785-10.276-46.248-30.832h123.656c1.092-6.996 1.64-12.792 1.64-17.384z"
                     transform="matrix(.28 0 0 .28 .073 97.657)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M720.282-14.104c15.524-12.464 23.288-29.3 23.288-50.512 0-12.464-2.844-23.288-8.528-32.472-3.721-6.996-10.937-13.776-21.648-20.336-3.065-2.183-7.872-4.479-14.432-6.888-7.001-2.839-11.921-4.7-14.76-5.576l-15.744-5.248c-16.62-5.028-28.208-9.84-34.768-14.432-5.904-4.592-8.856-10.496-8.856-17.712 0-6.775 2.732-12.3 8.2-16.564 5.463-4.264 12.792-6.396 21.976-6.396 20.116 0 34.768 9.84 43.952 29.52l38.048-21.976c-7.872-16.4-18.916-29.079-33.128-38.048-14.217-8.964-30.504-13.448-48.872-13.448-20.992 0-38.817 6.232-53.464 18.696-14.652 12.028-21.976 28.536-21.976 49.528 0 20.777 7.216 36.521 21.648 47.232 11.588 8.092 27.439 15.201 47.56 21.32 18.583 5.248 31.488 10.168 38.704 14.76 7.216 4.377 10.824 10.609 10.824 18.696 0 7.436-3.065 13.34-9.184 17.712-6.124 4.377-15.308 6.56-27.552 6.56-26.24 0-43.844-11.695-52.808-35.096l-38.704 22.632c6.56 17.712 17.599 31.601 33.128 41.656C618.71-.436 637.734 4.592 660.258 4.592c24.487 0 44.495-6.232 60.024-18.696z"
                     transform="matrix(.28 0 0 .28 1.9 97.894)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M425.085-82c0-13.556 4.264-24.6 12.792-33.128 8.528-8.743 19.352-13.12 32.472-13.12 13.12 0 23.944 4.377 32.472 13.12 8.743 8.528 13.12 19.572 13.12 33.128 0 13.561-4.377 24.713-13.12 33.456-8.528 8.528-19.352 12.792-32.472 12.792-13.12 0-23.944-4.264-32.472-12.792-8.528-8.743-12.792-19.895-12.792-33.456zm0-62.648V-229.6h-42.312V0h42.312v-19.352c12.464 15.964 30.176 23.944 53.136 23.944 22.304 0 41.108-8.308 56.416-24.928C550.381-36.951 558.253-57.508 558.253-82c0-24.052-7.872-44.495-23.616-61.336-15.529-16.836-34.332-25.256-56.416-25.256-22.96 0-40.672 7.985-53.136 23.944z"
                     transform="matrix(.28 0 0 .28 1.27 97.64)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M229.926-82c0-12.9 4.151-23.724 12.464-32.472 8.528-8.528 19.132-12.792 31.816-12.792 12.679 0 23.288 4.264 31.816 12.792 8.528 8.528 12.792 19.352 12.792 32.472 0 13.12-4.264 23.944-12.792 32.472-8.528 8.528-19.137 12.792-31.816 12.792-12.684 0-23.288-4.264-31.816-12.792-8.313-8.743-12.464-19.567-12.464-32.472zm131.2 0c0-24.052-8.42-44.495-25.256-61.336-16.841-16.836-37.392-25.256-61.664-25.256s-44.828 8.42-61.664 25.256c-16.62 16.62-24.928 37.064-24.928 61.336 0 24.492 8.308 45.049 24.928 61.664 16.615 16.62 37.172 24.928 61.664 24.928 24.487 0 45.044-8.308 61.664-24.928C352.706-37.172 361.126-57.728 361.126-82z"
                     transform="matrix(.28 0 0 .28 82.96 78.32) translate(-296 69)"
                 ></path>
                 <path
-                    fill='rgb(12,77,222)'
+                    fill="rgb(12,77,222)"
                     d="M-674.352 42.584c15.088-13.335 22.632-32.031 22.632-56.088V-171.6h-44.936v158.096c0 10.06-3.006 17.879-9.02 23.452-6.017 5.576-14.924 8.364-26.732 8.364-17.276 0-29.52-7.216-36.736-21.648l-39.032 22.304c14.432 29.084 39.688 43.624 75.768 43.624 23.831 0 43.183-6.668 58.056-20.008z"
                     transform="matrix(.28 0 0 .28 228 80)"
                 ></path>
@@ -57,7 +57,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'bag',
+        IconName: "bag",
         Icon: <svg viewBox="0 0 16 15" style={{ width: "100%", height: "100%" }}>
             <path
                 d="M11 3.5h3c.832 0 1.5.668 1.5 1.5v8.25c0 .832-.668 1.5-1.5 1.5H2c-.833 0-1.5-.668-1.5-1.5L.507 5c0-.832.66-1.5 1.493-1.5h3V2C5 1.167 5.668.5 6.5.5h3c.832 0 1.5.667 1.5 1.5v1.5zm-4.5 0h3V2h-3v1.5z"
@@ -66,7 +66,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'categories',
+        IconName: "categories",
         Icon: <svg viewBox="0 0 20 20" style={{ width: "100%", height: "100%" }}>
             <path d="M9.6 1.6 5.2 8.8H14L9.6 1.6z" />
             <circle cx={14} cy={14} r={3.6} />
@@ -74,7 +74,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'industries',
+        IconName: "industries",
         Icon: <svg viewBox="0 0 16 12" style={{ width: "100%", height: "100%" }}>
             <path
                 fillRule="evenodd"
@@ -84,7 +84,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'companies',
+        IconName: "companies",
         Icon: <svg viewBox="0 0 18 16" style={{ width: "100%", height: "100%" }}>
             <path
                 fillRule="evenodd"
@@ -94,7 +94,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'favorite',
+        IconName: "favorite",
         Icon: <svg viewBox="0 0 18 18" style={{ width: "100%", height: "100%" }}>
             <path
                 fillRule="evenodd"
@@ -104,7 +104,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'subscribed categories',
+        IconName: "subscribed categories",
         Icon: <svg viewBox="0 0 19 16" style={{ width: "100%", height: "100%" }}>
             <path
                 fillRule="evenodd"
@@ -114,25 +114,31 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'sun',
+        IconName: "sun",
         Icon: <svg viewBox="0 0 20 20" style={{ width: "100%", height: "100%" }}>
             <path d="M9.167 0v2.5h1.666V0H9.167zM3.519 2.34 2.34 3.52l1.768 1.767 1.178-1.178L3.52 2.34zm12.962 0-1.768 1.768 1.179 1.178L17.66 3.52l-1.18-1.18zM10 4.167a5.833 5.833 0 1 0 0 11.666 5.833 5.833 0 0 0 0-11.666zm-10 5v1.666h2.5V9.167H0zm17.5 0v1.666H20V9.167h-2.5zM4.108 14.713 2.34 16.482l1.18 1.178 1.767-1.767-1.178-1.178zm11.784 0-1.178 1.179 1.767 1.768 1.178-1.179-1.767-1.768zM9.167 17.5V20h1.666v-2.5H9.167z" />
         </svg>
     },
     {
-        IconName: 'moon',
+        IconName: "moon",
         Icon: <svg viewBox="0 0 16 18" style={{ width: "100%", height: "100%" }}>
             <path d="M8.85 17.332a8.345 8.345 0 0 1-7.527-4.728 8.276 8.276 0 0 1-.35-6.368 8.281 8.281 0 0 1 4.257-4.75 8.326 8.326 0 0 1 4.147-.8l.318.834c-2.852 1.166-4.17 5.572-2.883 8.25 1.16 2.418 4.508 5 8.342 3.344l.506.663a8.314 8.314 0 0 1-6.81 3.555z" />
         </svg>
     },
     {
-        IconName: 'filter',
-        Icon: <svg viewBox="0 0 24 24" style={{ width: "100%", height: "100%" }}>
-            <path fill="#000" d="M13.876 21.75c-.12 0-.24-.02-.354-.058l-3.757-1.25A1.121 1.121 0 0 1 9 19.374v-5.588a.02.02 0 0 0-.004-.006L1.09 4.572A1.406 1.406 0 0 1 2.16 2.25h19.686a1.407 1.407 0 0 1 1.068 2.322l-7.908 9.21a.042.042 0 0 0-.004.005v6.838a1.12 1.12 0 0 1-1.125 1.125Z" />
+        IconName: "filter",
+        Icon: <svg viewBox="0 0 12 11">
+            <path
+                fill="#0C4DDE"
+                fillRule="evenodd"
+                d="M1.953 2.17C1.2 1.333 1.793 0 2.919 0h5.862c1.126 0 1.72 1.333.966 2.17L5.85 6.5 1.953 2.17z"
+                clipRule="evenodd"
+            />
+            <path fill="#0C4DDE" d="M5.2 3.9h1.3v5.85a.65.65 0 1 1-1.3 0V3.9z" />
         </svg>
     },
     {
-        IconName: 'link',
+        IconName: "link",
         Icon: <svg viewBox="0 0 16 16" style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -141,7 +147,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'business',
+        IconName: "business",
         Icon: <svg viewBox="0 0 20 17" style={{ width: "100%", height: "100%" }}>
             <path
                 d="M7 0V1H2C0.895 1 0 1.895 0 3V9C0 10.103 0.897 11 2 11H18C19.103 11 20 10.103 20 9V3C20 1.895 19.105 1 18 1H13V0H7ZM10 7C10.552 7 11 7.448 11 8C11 8.552 10.552 9 10 9C9.448 9 9 8.552 9 8C9 7.448 9.448 7 10 7ZM0 12.4434V15C0 16.105 0.895 17 2 17H18C19.105 17 20 16.105 20 15V12.4434C19.409 12.7874 18.732 13 18 13H2C1.268 13 0.591 12.7874 0 12.4434Z"
@@ -150,7 +156,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'financial',
+        IconName: "financial",
         Icon: <svg viewBox="0 0 24 24" style={{ width: "100%", height: "100%" }}>
             <path
                 d="M2 3C1.448 3 1 3.448 1 4V12C1 12.552 1.448 13 2 13H18C18.552 13 19 12.552 19 12V4C19 3.448 18.552 3 18 3H2ZM3.91211 5H16.0879C16.1625 5.21031 16.2831 5.40132 16.4409 5.55911C16.5987 5.7169 16.7897 5.83749 17 5.91211V10.0879C16.7897 10.1625 16.5987 10.2831 16.4409 10.4409C16.2831 10.5987 16.1625 10.7897 16.0879 11H3.91211C3.83749 10.7897 3.7169 10.5987 3.55911 10.4409C3.40132 10.2831 3.21031 10.1625 3 10.0879V5.91211C3.21031 5.83749 3.40132 5.7169 3.55911 5.55911C3.7169 5.40132 3.83749 5.21031 3.91211 5ZM10 6C9.46957 6 8.96086 6.21071 8.58579 6.58579C8.21071 6.96086 8 7.46957 8 8C8 8.53043 8.21071 9.03914 8.58579 9.41421C8.96086 9.78929 9.46957 10 10 10C10.5304 10 11.0391 9.78929 11.4142 9.41421C11.7893 9.03914 12 8.53043 12 8C12 7.46957 11.7893 6.96086 11.4142 6.58579C11.0391 6.21071 10.5304 6 10 6ZM21 11V18.0879C20.7897 18.1625 20.5987 18.2831 20.4409 18.4409C20.2831 18.5987 20.1625 18.7897 20.0879 19H7.91211C7.83749 18.7897 7.7169 18.5987 7.55911 18.4409C7.40132 18.2831 7.21031 18.1625 7 18.0879V15H5V20C5 20.552 5.448 21 6 21H22C22.552 21 23 20.552 23 20V12C23 11.448 22.552 11 22 11H21ZM12.2773 15C12.1063 15.295 12 15.634 12 16C12 17.105 12.895 18 14 18C15.105 18 16 17.105 16 16C16 15.634 15.8937 15.295 15.7227 15H12.2773Z"
@@ -159,7 +165,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'retail',
+        IconName: "retail",
         Icon: <svg viewBox="0 0 20 21" style={{ width: "100%", height: "100%" }}>
             <path
                 d="M3.41602 0.996094L0.00390625 1.01367L0.0136719 3.01367L2.08398 3.00391L5.40039 10.9629L2.88281 16H18V14H6.11719L7.11719 12H16L20 3H4.25L3.41602 0.996094ZM6 17C5.46957 17 4.96086 17.2107 4.58579 17.5858C4.21071 17.9609 4 18.4696 4 19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21C6.53043 21 7.03914 20.7893 7.41421 20.4142C7.78929 20.0391 8 19.5304 8 19C8 18.4696 7.78929 17.9609 7.41421 17.5858C7.03914 17.2107 6.53043 17 6 17ZM16 17C15.4696 17 14.9609 17.2107 14.5858 17.5858C14.2107 17.9609 14 18.4696 14 19C14 19.5304 14.2107 20.0391 14.5858 20.4142C14.9609 20.7893 15.4696 21 16 21C16.5304 21 17.0391 20.7893 17.4142 20.4142C17.7893 20.0391 18 19.5304 18 19C18 18.4696 17.7893 17.9609 17.4142 17.5858C17.0391 17.2107 16.5304 17 16 17Z"
@@ -168,7 +174,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'engineering',
+        IconName: "engineering",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 d="M8 0v1.102A5.015 5.015 0 004.102 5H3v2h2c0 2.197 1.803 4 4 4s4-1.803 4-4h2V5h-1.102A5.015 5.015 0 0010 1.102V0H8zM7 7h4c0 1.117-.883 2-2 2s-2-.883-2-2zm2 6c-.856 0-1.914.119-3 .346V19h6v-5.654C10.914 13.119 9.856 13 9 13zm-5 .889c-2.166.747-4 1.958-4 3.611V19h4v-5.111zm10 0V19h4v-1.5c0-1.653-1.834-2.864-4-3.611z"
@@ -177,22 +183,22 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'marketing',
-        Icon: <svg style={{ width: "100%", height: "100%" }} viewBox='0 0 24 24'>
+        IconName: "marketing",
+        Icon: <svg style={{ width: "100%", height: "100%" }} viewBox="0 0 24 24">
             <path
-                fill='#0C4DDE'
-                d='M20 3l-1 1.285L6 9v6l2.45.89-.282.801a1.148 1.148 0 00.703 1.47l2.176.773a1.156 1.156 0 001.476-.704l.27-.765L19 19.715 20 21h2V3zM2 9v6h2V9zm0 0'
+                fill="#0C4DDE"
+                d="M20 3l-1 1.285L6 9v6l2.45.89-.282.801a1.148 1.148 0 00.703 1.47l2.176.773a1.156 1.156 0 001.476-.704l.27-.765L19 19.715 20 21h2V3zM2 9v6h2V9zm0 0"
             ></path>
         </svg>
     },
     {
-        IconName: 'computing',
+        IconName: "computing",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path fill="#0C4DDE" d="M2 0v14H0v2h24v-2h-2V0H2zm2 2h16v10H4V2z" />
         </svg>
     },
     {
-        IconName: 'transport',
+        IconName: "transport",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -201,7 +207,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'hospitality',
+        IconName: "hospitality",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -210,7 +216,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'education',
+        IconName: "education",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -219,7 +225,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'court',
+        IconName: "court",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -228,7 +234,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'property',
+        IconName: "property",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -237,7 +243,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'design',
+        IconName: "design",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -246,7 +252,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'healthcare',
+        IconName: "healthcare",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -255,7 +261,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'building',
+        IconName: "building",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -264,7 +270,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'security',
+        IconName: "security",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -273,7 +279,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'media',
+        IconName: "media",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -282,7 +288,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'production',
+        IconName: "production",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -291,7 +297,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'languages',
+        IconName: "languages",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -300,7 +306,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'social',
+        IconName: "social",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -309,7 +315,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'science',
+        IconName: "science",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -318,7 +324,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'religion',
+        IconName: "religion",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -327,7 +333,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'animals',
+        IconName: "animals",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -336,7 +342,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'barber',
+        IconName: "barber",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#0C4DDE"
@@ -345,7 +351,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'banks',
+        IconName: "banks",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -354,7 +360,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'construction',
+        IconName: "construction",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -363,7 +369,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'food',
+        IconName: "food",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -372,7 +378,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'professional',
+        IconName: "professional",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -381,7 +387,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'multiline',
+        IconName: "multiline",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -390,7 +396,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'speciality',
+        IconName: "speciality",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -399,7 +405,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'other',
+        IconName: "other",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -408,7 +414,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'information',
+        IconName: "information",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -417,7 +423,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'consumer',
+        IconName: "consumer",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -426,7 +432,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'educations',
+        IconName: "educations",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -435,7 +441,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'distrubitors',
+        IconName: "distrubitors",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -444,7 +450,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'capital',
+        IconName: "capital",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -453,7 +459,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'food retail',
+        IconName: "food retail",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -462,7 +468,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'household',
+        IconName: "household",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -471,7 +477,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'bevarage',
+        IconName: "bevarage",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -480,7 +486,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'textile',
+        IconName: "textile",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -489,7 +495,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'transportation',
+        IconName: "transportation",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -498,7 +504,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'health care',
+        IconName: "health care",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -507,7 +513,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'energy',
+        IconName: "energy",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -516,7 +522,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'materials',
+        IconName: "materials",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -525,7 +531,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'gas',
+        IconName: "gas",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -534,7 +540,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'commercial',
+        IconName: "commercial",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -543,7 +549,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'trading',
+        IconName: "trading",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -552,7 +558,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'metals',
+        IconName: "metals",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -561,7 +567,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'estate',
+        IconName: "estate",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -570,7 +576,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'telecommunication',
+        IconName: "telecommunication",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -579,7 +585,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'automobiles',
+        IconName: "automobiles",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -588,7 +594,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'entertaiment',
+        IconName: "entertaiment",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -597,7 +603,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'electronic',
+        IconName: "electronic",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -606,7 +612,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'personal',
+        IconName: "personal",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -615,7 +621,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'pharmaceptic',
+        IconName: "pharmaceptic",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -624,7 +630,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'chemical',
+        IconName: "chemical",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -633,7 +639,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'leisure',
+        IconName: "leisure",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -642,7 +648,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'paper products',
+        IconName: "paper products",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -651,7 +657,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'auto components',
+        IconName: "auto components",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -660,13 +666,13 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'airlines',
+        IconName: "airlines",
         Icon: <svg viewBox="0 0 24 24" style={{ width: "100%", height: "100%" }}>
             <path fill="#00f529" d="M8.747 21.75H7.5a.75.75 0 0 1-.683-1.06l3.021-6.667-4.537-.101-1.655 2.005c-.315.396-.567.573-1.209.573h-.84a.828.828 0 0 1-.689-.33c-.112-.151-.221-.406-.114-.77l.929-3.328a.851.851 0 0 1 .024-.074v-.007a.69.69 0 0 1-.024-.075l-.93-3.35c-.101-.356.009-.605.12-.752A.789.789 0 0 1 1.55 7.5h.887c.48 0 .945.215 1.219.563l1.62 1.97 4.562-.067-3.02-6.656A.75.75 0 0 1 7.5 2.25h1.26a1.172 1.172 0 0 1 .908.46l5.862 7.124 2.708-.07c.198-.012.747-.015.874-.015 2.59.001 4.138.842 4.138 2.251 0 .443-.178 1.266-1.363 1.789-.7.31-1.634.466-2.776.466-.125 0-.673-.004-.874-.015l-2.708-.072-5.876 7.125a1.174 1.174 0 0 1-.906.457Z"></path>
         </svg>
     },
     {
-        IconName: 'containers',
+        IconName: "containers",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -675,7 +681,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'electrical equipment',
+        IconName: "electrical equipment",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -684,7 +690,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'road',
+        IconName: "road",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -693,7 +699,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'machinery',
+        IconName: "machinery",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -702,7 +708,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'building products',
+        IconName: "building products",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -711,7 +717,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'power',
+        IconName: "power",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -720,7 +726,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'media services',
+        IconName: "media services",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -729,7 +735,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'utilities',
+        IconName: "utilities",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -738,7 +744,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'tourism',
+        IconName: "tourism",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -747,14 +753,14 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'marine',
+        IconName: "marine",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153" d="M6 1v3H4c-.55 0-1 .45-1 1v6H2c-.55 0-1 .45-1 1v7c0 .55.45 1 1 1h11.93c4.53 0 8.422-3.379 9.058-7.86.012-.05.012-.09.012-.14V9c0-.55-.45-1-1-1h-7c-.328 0-.648.168-.832.45L12.461 11H11V7.238l.895-1.789a1.01 1.01 0 0 0-.043-.976A1.005 1.005 0 0 0 11 4H8V1ZM5 6h4.383l-.278.55A.999.999 0 0 0 9 7v4H5Zm12 5h2v2h-2Zm0 0" />
         </svg>
     },
     {
-        IconName: 'biotechnology',
+        IconName: "biotechnology",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -763,14 +769,14 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'space',
+        IconName: "space",
         Icon: <svg style={{ width: "100%", height: "100%" }} viewBox="0 0 24 24">
             <path fill="#00f529" d="M22.39 1.792a.222.222 0 0 0-.167-.171C19.477.95 13.133 3.34 9.697 6.777a14.859 14.859 0 0 0-1.67 1.974c-1.06-.094-2.12-.016-3.023.378-2.549 1.122-3.29 4.049-3.498 5.308a.452.452 0 0 0 .495.525l4.093-.452a9.2 9.2 0 0 0 .055.924.91.91 0 0 0 .268.562L8 17.577c.151.152.35.247.563.267.305.034.611.053.918.056l-.449 4.088a.452.452 0 0 0 .525.494c1.257-.201 4.189-.943 5.304-3.492.394-.903.474-1.958.383-3.013a14.886 14.886 0 0 0 1.98-1.67c3.447-3.43 5.825-9.633 5.164-12.514Zm-8.606 8.422a2.25 2.25 0 1 1 3.18-3.182 2.25 2.25 0 0 1-3.18 3.182Z" />
             <path fill="#00f529" d="M7.894 18.723c-.257.258-.67.358-1.165.444-1.114.19-2.098-.773-1.898-1.9.076-.427.302-1.025.443-1.166a.205.205 0 0 0-.171-.35 2.812 2.812 0 0 0-1.647.803C2.354 17.657 2.25 21.75 2.25 21.75s4.095-.104 5.197-1.207a2.798 2.798 0 0 0 .803-1.648c.017-.196-.221-.313-.356-.172Z" />
         </svg>
     },
     {
-        IconName: 'life science',
+        IconName: "life science",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -779,7 +785,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'tobacco',
+        IconName: "tobacco",
         Icon: <svg style={{ width: "100%", height: "100%" }}>
             <path
                 fill="#00D153"
@@ -788,13 +794,13 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'eye',
+        IconName: "eye",
         Icon: <svg style={{ width: "100%", height: "100%" }} viewBox="0 0 16 9">
             <path d="M7.995 0C4.222 0 .898 2.584.015 5.97a.489.489 0 0 0 .055.374.5.5 0 0 0 .685.173.495.495 0 0 0 .23-.302C1.744 3.298 4.688.988 7.994.988c3.307 0 6.26 2.31 7.02 5.227a.494.494 0 0 0 .23.302.506.506 0 0 0 .685-.173.488.488 0 0 0 .054-.375C15.102 2.583 11.77 0 7.995 0zm.006 2.634c-1.774 0-3.222 1.431-3.222 3.183C4.78 7.569 6.227 9 8.001 9c1.773 0 3.222-1.431 3.222-3.183 0-1.752-1.449-3.183-3.222-3.183zm0 .988a2.2 2.2 0 0 1 2.222 2.195c0 1.218-.99 2.195-2.222 2.195a2.2 2.2 0 0 1-2.222-2.195 2.2 2.2 0 0 1 2.222-2.195z" />
         </svg>
     },
     {
-        IconName: 'search',
+        IconName: "search",
         Icon: <svg style={{ width: "100%", height: "100%" }} fill="none" viewBox="0 0 17 17">
             <circle cx={7.5} cy={7.5} r={6.5} stroke="#7F7F7F" />
             <path
@@ -806,16 +812,16 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'manat',
+        IconName: "manat",
         Icon: <svg style={{ width: "100%", height: "100%" }} fill="none" viewBox="0 0 13 10">
             <path
-                fill="gray"
+                fill="rgb(135, 135, 135)"
                 d="M7.126 2.833c2.215.334 4.622 1.817 4.622 6.25v.315c0 .333.28.602.626.602S13 9.73 13 9.398v-.315c0-4.916-2.793-6.833-5.874-7.333V.602A.614.614 0 0 0 6.5 0a.614.614 0 0 0-.626.602V1.75C2.793 2.25 0 4.167 0 9.083v.315c0 .333.28.602.626.602s.626-.27.626-.602v-.315c0-4.433 2.407-5.916 4.622-6.25v6.565c0 .333.28.602.626.602s.626-.27.626-.602V2.833z"
             />
         </svg>
     },
     {
-        IconName: 'empty heart',
+        IconName: "empty heart",
         Icon: <svg
             style={{ width: "100%", height: "100%" }}
             fill="none"
@@ -828,7 +834,7 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'resizer',
+        IconName: "resizer",
         Icon: <svg style={{ width: "100%", height: "100%" }} fill="#000" viewBox="0 0 24 24">
             <path
                 fillRule="evenodd"
@@ -838,11 +844,60 @@ const IconArray = [
         </svg>
     },
     {
-        IconName: 'close',
+        IconName: "close",
         Icon: <svg stroke="red" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
             <path d="M18 6 6 18M6 6l12 12" />
         </svg>
-    }
+    },
+    {
+        IconName: "checked",
+        Icon: <svg
+            fill="#fff"
+            stroke="#012bfe"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            viewBox="0 0 24 24"
+        >
+            <path d="M20 6 9 17l-5-5" />
+        </svg>
+    },
+    {
+        IconName: "Xalq Bank",
+        Icon: <svg viewBox="0 0 500 500">
+            <path fill="#F0F0F0" d="M0 0h500v500H0z" />
+            <path
+                fill="#D51F28"
+                d="M294.364 151.182H124.141l85.628 89.603 84.595-89.603ZM289.361 258.698l-84.585 89.592h170.223l-85.638-89.592Z"
+            />
+            <path
+                fill="#231F20"
+                d="M312.808 151.182 124.141 348.289h62.187L375 151.182h-62.192Z"
+            />
+        </svg>
+    },
+    {
+        IconName: "Logistika",
+        Icon: <svg viewBox="0 0 500 500">
+            <path fill="#F0F0F0" d="M0 0h500v500H0z" />
+            <path
+                fill="#E31E25"
+                d="M196.233 252.52c-5.141-.347-11.598-.437-19.369-.269-.641.013-1.117.088-1.428.222a.342.342 0 0 0-.105.069.242.242 0 0 0-.057.095.184.184 0 0 0-.002.104.229.229 0 0 0 .055.096c.272.296.58.594.925.895.698.614.765 1.47.199 2.567a124.86 124.86 0 0 0-9.539 3.133c-6.021 2.251-11.399 5.43-14.913 9.67-2.638 3.18-3.894 6.787-.879 9.94 2.058 2.15 5.676 3.714 9.004 4.653a99.18 99.18 0 0 0 7.237 1.756l1.6 1.929-39.972.326a1.658 1.658 0 0 1-.508-.076 1.376 1.376 0 0 1-.426-.22c-2.433-1.92-4.058-4.041-4.874-6.363-2.693-7.652 5.845-13.644 13.698-17.15 5.256-2.349 10.791-4.27 16.603-5.764.015-.005.02-.012.014-.02l-.027-.085c-.022-.049-.065-.068-.132-.057-19.995 3.045-47.208 11.723-41.695 30.869.055.195-.053.293-.322.293l-31.797.047a2.096 2.096 0 0 1-.562-.65c-.1-.193-.207-.307-.322-.343-.169-.054-.382-.055-.639-.003.22 0 .399-.018.535-.054.151-.043.216-.124.195-.242-1.007-5.374 2.172-10.768 7.195-14.657l.821-.771a55.536 55.536 0 0 1 9.218-5.444c11.498-5.36 25.399-8.654 38.775-10.815 12.532-2.023 25.497-3.473 38.897-4.35a780.99 780.99 0 0 1 57.346-1.646c.005 0 .009.002.013.004.003.003.005.006.005.01a.012.012 0 0 1-.005.009.02.02 0 0 1-.013.004c-3.99.185-8.225.249-12.006.468a524.355 524.355 0 0 0-22.743 1.82Z"
+            />
+            <path
+                fill="#026AB4"
+                d="M179.37 237.19c5.246.38 9.96.014 14.14-1.1.5-.133.69.054.57.56l-.94 3.9c-.1.42-.364.664-.79.73-6.4 1.01-12.86.86-19.12 1.32a554.09 554.09 0 0 0-15.24 1.34.602.602 0 0 1-.531-.206.612.612 0 0 1-.129-.554c.47-1.86.76-3.72 2.06-5.25l18.49-21.83a.415.415 0 0 0 .059-.446.426.426 0 0 0-.379-.244l-11.26-.01c-.4 0-.677-.186-.83-.56-1.04-2.5.09-6.45.68-8.97a.842.842 0 0 1 .301-.477.889.889 0 0 1 .539-.193l32.15-.2a.243.243 0 0 1 .195.082.258.258 0 0 1 .054.097.262.262 0 0 1 .011.111c-.407 3.467-1.107 6.5-2.1 9.1-.614 1.62-1.844 3.494-3.69 5.62-4.787 5.52-9.6 11.084-14.44 16.69-.26.3-.194.464.2.49ZM133.91 240.338l-7.74.49c-.514.033-.877.287-1.09.76-.854 1.92-1.74 3.857-2.66 5.81-.57 1.22-1.19 1.61-2.52 1.87-5.827 1.093-11.17 2.803-16.03 5.13-1.347.647-1.647.323-.9-.97 8.226-14.2 16.47-28.637 24.73-43.31.68-1.21.16-2.38-.62-3.38a.516.516 0 0 1-.057-.541.495.495 0 0 1 .457-.279l19.31.13a4.252 4.252 0 0 1 4.2 3.92l2.63 33.82a.802.802 0 0 1-.73.86l-16.85 1.55a1.021 1.021 0 0 1-1.025-.576 1.034 1.034 0 0 1-.105-.404l-.23-4.2a.713.713 0 0 0-.243-.501.712.712 0 0 0-.527-.179Zm-3.65-8.93a.307.307 0 0 0 .28.45l3.41.04a.308.308 0 0 0 .292-.205.295.295 0 0 0 .018-.125l-.38-6.53a.308.308 0 0 0-.451-.254.308.308 0 0 0-.139.144l-3.03 6.48ZM186.66 277.949c1.78-.007 3.65.003 5.61.03 1.007.013 1.9-.227 2.68-.72 1.467-.913 1.957-.54 1.47 1.12-.81 2.79-.92 7.76-4.92 7.78-7.06.053-13.977.053-20.75 0-1.36-.007-1.877-.673-1.55-2 2.4-9.687 4.823-19.24 7.27-28.66.2-.81.12-1.4-.56-1.93-1.22-.967-1.05-1.45.51-1.45 4.52-.007 9.163.007 13.93.04.253.007.493.053.72.14.92.387 1.257 1.063 1.01 2.03l-5.82 23.11a.413.413 0 0 0 .075.353.406.406 0 0 0 .325.157ZM282.78 257.759l-10.08-.02a1.729 1.729 0 0 1-1.376-.705 1.728 1.728 0 0 1-.254-1.525l.7-2.25a1.72 1.72 0 0 1 1.67-1.2l9.85.17a1.727 1.727 0 0 1 1.33.66 1.722 1.722 0 0 1 .32 1.45l-.48 2.08a1.722 1.722 0 0 1-1.68 1.34ZM345.36 252.11l9.96.16a1.674 1.674 0 0 1 1.584 1.198c.068.228.087.467.056.702l-.28 2.11a1.678 1.678 0 0 1-1.66 1.46l-10.28-.02a1.688 1.688 0 0 1-1.324-.654 1.679 1.679 0 0 1-.296-1.446l.59-2.25a1.682 1.682 0 0 1 1.65-1.26ZM373.94 266.32l3.66-3.24c.32-.287.45-.64.39-1.06l-.24-1.56a.718.718 0 0 1 .155-.564.712.712 0 0 1 .525-.256c2.787-.08 5.777-.06 8.97.06.68.026 1.174.34 1.48.94.128.258.165.552.105.832-.06.28-.214.529-.435.708l-6.48 5.25c-.44.36-.383.603.17.73 3.73.83 5.67 1.99 4.59 6.23-.67 2.66-1.38 5.29-1.86 8-.22 1.24.17 2.356 1.17 3.35a.273.273 0 0 1 .07.142.272.272 0 0 1-.018.157.276.276 0 0 1-.252.171c-4.14-.047-8.24-.074-12.3-.08-.533 0-1.05-.09-1.55-.27a.722.722 0 0 1-.45-.83l2.11-9.08a1.88 1.88 0 0 0-.94-2.08l-.48-.25c-.606-.327-1.023-.164-1.25.49-.7 2.053-1.35 4.51-1.95 7.37-.326 1.593-.026 2.976.9 4.15a.347.347 0 0 1-.084.515.358.358 0 0 1-.186.055l-14-.14a.92.92 0 0 1-.88-1.14c2.38-9.62 4.727-18.96 7.04-28.02.387-1.507.124-2.867-.79-4.08a.4.4 0 0 1 .32-.64l13.51.01a1.171 1.171 0 0 1 .931.451 1.19 1.19 0 0 1 .219 1.019l-3.05 12.13c-.286 1.126.007 1.303.88.53ZM325.85 278.54c2.907.806 5.26.426 7.06-1.14 1.153-.994 1.563-.747 1.23.74-.6 2.72-.92 7.35-4.33 7.76-5.04.61-10.49.29-15.6.16-1.487-.04-2.567-.53-3.24-1.47-.16-.22-.25-.47-.27-.75a14.894 14.894 0 0 1 .33-4.27c.92-4.054 1.947-8.187 3.08-12.4a.728.728 0 0 0 .008-.35.727.727 0 0 0-.153-.314.73.73 0 0 0-.625-.266c-.347.02-.68-.01-1-.09a.68.68 0 0 1-.49-.86l1.26-4.13a.868.868 0 0 1 .77-.61c3.78-.28 7.63-1.4 9.05-5.12.267-.694.77-1.007 1.51-.94 1.893.173 3.57.16 5.03-.04.76-.107 1.06.216.9.97l-.82 3.73a.43.43 0 0 0 .42.53l5.05-.07c.953-.014 1.31.44 1.07 1.36l-.91 3.46a2.332 2.332 0 0 1-2.23 1.74l-3.86.04a1.77 1.77 0 0 0-1.7 1.33l-2.39 9.55a1.2 1.2 0 0 0 .85 1.45ZM226.47 280.472c-2.22 5.83-7.23 6.15-12.67 6.1-3.747-.027-7.28-.097-10.6-.21-6.56-.23-6.64-5.64-5.62-10.47 1.65-7.76 3.16-16.16 12.99-16.6 5.134-.227 9.803-.177 14.01.15 5.87.46 6 5.98 4.99 10.49-.886 3.92-1.92 7.433-3.1 10.54Zm-10.098-12.853a1.282 1.282 0 0 0-.932-1.552l-.369-.092a1.267 1.267 0 0 0-.969.145 1.273 1.273 0 0 0-.582.787l-2.792 11.198a1.277 1.277 0 0 0 .932 1.551l.369.092a1.272 1.272 0 0 0 .969-.145 1.273 1.273 0 0 0 .583-.787l2.791-11.197ZM255.76 259.309l1.27.02c3.5.37 8.4.03 7.12 5.6-1.107 4.786-2.863 11.673-5.27 20.66-1.08 4.046-3.363 6.7-6.85 7.96-.42-.014-.863.136-1.33.45-7.62.353-13.95.376-18.99.07-.987-.06-1.883-.554-2.69-1.48a1.467 1.467 0 0 1-.38-.97c-.06-2.287.353-4.62 1.24-7 .187-.507.52-.634 1-.38.447.246.763.61.95 1.09.213.546.613.82 1.2.82 3.16-.01 6.97.39 10.08-.2 1.913-.367 3.003-1.814 3.27-4.34.087-.86-.13-.947-.65-.26-2.09 2.75-4.31 2.77-7.44 2.75-3.25-.01-7.2-.4-7.33-4.61-.073-2.527.273-5.237 1.04-8.13 1.25-4.73 2.55-8.9 7.54-10.9 1.54-.62 4.123-.964 7.75-1.03 2.833-.054 5.657-.094 8.47-.12Zm-5.63 7.81a1.046 1.046 0 0 0-.292-1.014 1.049 1.049 0 0 0-1.028-.236l-1.24.4a1.035 1.035 0 0 0-.7.75l-2.22 9.42a1.038 1.038 0 0 0 .734 1.242c.172.047.353.05.526.008l1.01-.24a1.043 1.043 0 0 0 .77-.76l2.44-9.57ZM268.92 261.482a2.114 2.114 0 0 1-.71-1.21c-.093-.447.087-.67.54-.67l13.27.06a1.19 1.19 0 0 1 1.157.932c.038.174.035.355-.007.528a2536.864 2536.864 0 0 1-4.99 20.05c-.406 1.606-.146 3.1.78 4.48.227.333.137.5-.27.5h-13.72a.8.8 0 0 1-.8-.75 9.442 9.442 0 0 1 .27-2.94c1.454-5.78 2.864-11.324 4.23-16.63.287-1.094.497-2.22.63-3.38a1.036 1.036 0 0 0-.38-.97ZM301.54 266.308c-2.42.207-2.65 1.027-.69 2.46a166.068 166.068 0 0 0 6 4.19c3.31 2.2 1.81 6.17.95 9.12-.76 2.593-2.823 3.927-6.19 4-5.333.127-10.83.113-16.49-.04-.66-.02-1.13-.37-1.41-1.05a1.419 1.419 0 0 1-.09-.72c.287-2.567.83-4.97 1.63-7.21a.322.322 0 0 1 .56-.08c.85 1.15 1.64 2 3.21 2 1.627 0 3.18-.02 4.66-.06 3.253-.08 3.52-1.013.8-2.8a459.681 459.681 0 0 1-5.81-3.89c-2.87-1.95-.17-8.81 1.32-10.55 1.107-1.287 2.65-1.947 4.63-1.98a946.41 946.41 0 0 1 13.79-.12c.873 0 1.223.427 1.05 1.28l-.74 3.59a2.137 2.137 0 0 1-2.13 1.71c-1.793-.04-3.477.01-5.05.15ZM341.02 261.831l-.74-1.43a.577.577 0 0 1 .022-.589.612.612 0 0 1 .528-.281c4.42.12 8.933.17 13.54.15.433 0 .703.364.81 1.09.02.139.013.278-.02.41a648.844 648.844 0 0 1-4.89 19.76c-.467 1.747-.204 3.31.79 4.69.273.374.18.56-.28.56-4.64.027-9.007-.02-13.1-.14a4.537 4.537 0 0 1-1.21-.21.817.817 0 0 1-.471-.383.837.837 0 0 1-.079-.607l5.3-21.24a2.502 2.502 0 0 0-.2-1.78ZM403.97 283.52c-.34-.62-.696-.63-1.07-.03-.953 1.533-2.13 2.407-3.53 2.62-2.586.4-5.18.413-7.78.04-5.05-.71-2.23-10.06-.86-12.73 2.78-5.38 9.87-4.26 15.01-4.22.947.007 1.527-.453 1.74-1.38l.09-.39c.16-.687-.113-1.037-.82-1.05l-8.64-.2c-1.086-.027-1.536-.577-1.35-1.65l.6-3.39c.18-1.027.794-1.54 1.84-1.54 8.987-.013 14.837.027 17.55.12 3.807.133 5.3 2.203 4.48 6.21-.593 2.9-1.95 8.413-4.07 16.54-.27 1.04-.32 1.99.69 2.68.974.667.87 1.003-.31 1.01-3.793.013-7.746-.003-11.86-.05a1.738 1.738 0 0 1-1.66-2.18.514.514 0 0 0-.05-.41Zm1.8-8.51a.914.914 0 0 0-.259-.942.914.914 0 0 0-.961-.178l-1.52.6a.929.929 0 0 0-.377.275.932.932 0 0 0-.193.425l-.64 3.74a.934.934 0 0 0 .221.777.92.92 0 0 0 .749.303l.9-.07a.921.921 0 0 0 .82-.65l1.26-4.28Z"
+            />
+        </svg>
+    },
+    {
+        IconName: "empty favorite",
+        Icon: <svg viewBox="0 0 18 16">
+            <path
+                d="M15.73 2.37A4.336 4.336 0 0 0 12.53 1c-.923 0-1.769.287-2.514.853A5.096 5.096 0 0 0 9 2.897c-.3-.408-.64-.758-1.016-1.044A4.068 4.068 0 0 0 5.47 1a4.336 4.336 0 0 0-3.2 1.37C1.45 3.243 1 4.436 1 5.73c0 1.33.504 2.548 1.587 3.833.968 1.15 2.36 2.316 3.972 3.667.55.461 1.175.984 1.822 1.541a.948.948 0 0 0 1.237 0c.648-.557 1.272-1.08 1.823-1.541 1.612-1.351 3.004-2.518 3.972-3.667C16.496 8.278 17 7.06 17 5.729c0-1.293-.45-2.486-1.27-3.359z"
+                clipRule="evenodd"
+            />
+        </svg>
+    },
 ];
 
-export default IconArray;
+export default IconsArray;
