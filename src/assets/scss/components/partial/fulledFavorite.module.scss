@@ -1,14 +1,13 @@
 .favorite {
-    font-family: "Brutal Type Light";
+    font-family: "Archivo", "Brutal Type Light";
     padding: 2rem 1.5rem;
     font-size: 1.5rem;
-    font-weight: 500;
     text-align: center;
     border-bottom: .1rem solid rgb(238, 238, 238);
 }
 
 .no-favorite-container {
-    height: 100%;
+    height: 81%;
     display: flex;
     flex-flow: column;
     margin: auto;
@@ -50,6 +49,7 @@
         border-color: rgba(12, 77, 222, .05);
         cursor: pointer;
         margin-top: 4px;
+        transition: all 0.3s linear;
 
         &:hover {
             background: #0c4dde;

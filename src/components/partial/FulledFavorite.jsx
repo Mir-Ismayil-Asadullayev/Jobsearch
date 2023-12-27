@@ -5,7 +5,7 @@ const FulledFavorite = () => {
     return (
         <>
             <div className={fulledFavorite["favorite"]}>
-                <h2>My favorite vacancies</h2>
+                <h2>Seçdiyim iş elanları</h2>
             </div>
             <div className={fulledFavorite["no-favorite-container"]}>
                 <div className={fulledFavorite["no-favorite"]}>

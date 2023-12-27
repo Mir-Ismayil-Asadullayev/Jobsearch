@@ -5,6 +5,14 @@
   font-size: 62.5%;
   height: 100%;
   position: relative;
+  max-width: 1536px;
+  margin: 0 auto;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+
+body {
+  background-color: #eaeaea;
 }
 
 *,
